@@ -25,7 +25,7 @@
     "href": "template.html",
     "title": "2  Choosing a Template",
     "section": "",
-    "text": "TO DO TO DO",
+    "text": "Now, find a website template that you’d like to use. There are a lot of free ones from https://html5up.net/. Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use Jekyll themes that are designed for GitHub Pages, too.\nSome of the templates that we recommend for use include: * HTML5Up’s Editorial * HTML5Up’s Stellar * HTML5Up’s Arcana * HTML5Up’s Minimaxing\nRegardless of your desired choice, the set-up remains the same. 1. Download the template that you like. 2. Go into your downloads folder. 3. Copy and paste all of this content into your repository folder (username.github.io) 4. If the downloaded items include an index.html, you will need to delete your original, barebones index.html we created earlier. (If you are on a Mac, it will ask you automatically). 5. Commit your changes and push them to GitHub. 6. After a few minutes, the build should be deployed and you should see this template hosted on your website now.",
     "crumbs": [
       "Customization",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Choosing a Template</span>"
