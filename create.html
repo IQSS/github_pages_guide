@@ -194,23 +194,17 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>In GitHub, create a new repository called username.github.io where username is replaced by your actual username. For example, if my username is pandabear, my repository is called pandabear.github.io</li>
 <li>On your desktop, create a folder. I called mine “Personal_Website”</li>
-<li>In Visual Studio Code on the Welcome Page, click “Clone Git Repository…”</li>
-<li>Copy the full repository link from your GitHub repository using the clone button. Paste this into the search bar that appears in Visual Studio Code when you clicked “Clone Git Repository”</li>
-<li>Select the folder (“Personal_Website”) as the destination, and click “Open”</li>
-<li>In your Workspace Pane (the left) you should see that it now says the name of your repository at the top (USERNAME.GITHUB.IO).</li>
-<li>Now, select “New File…”</li>
-<li>Type html into the search bar that popped up.</li>
-<li>Make sure that the destination is the name of your repository (this will be in your “Personal_Website” folder if you want to double check).</li>
-<li>Name it “index.html”</li>
+<li>Clone your GitHub repository to your local folder. You can do this with your IDE of choice or through the command line.
+<ul>
+<li>
+To copy the full repository link from your GitHub repository, use the green clone button, and then the copy icon. Paste this where your IDE asks for it.
+</li>
+<li>
+Or if you are using your command line, you can change directory (using the cd command) into your “Personal_Website” folder and then type out “git clone &lt;paste your link here&gt;”.</li>
+<li>Now, create a new file inside of your repository called “index.html”</li>
 <li>Inside the file, copy and paste this text: <br> &lt;!DOCTYPE html&gt; <br> &lt;html&gt; <br> &lt;body&gt; <br> &lt;h1&gt;Hello World&lt;/h1&gt; <br> &lt;p&gt;I’m hosted with GitHub Pages.&lt;/p&gt; <br> &lt;/body&gt; <br> &lt;/html&gt; <br></li>
 <li>Save your file.</li>
-<li>Click the Source Control icon on your left-hand toolbar. (It has three nodes, and resembles a branch icon).</li>
-<li>Your file index.html should be listed under “Changes”. When you hover over this file, three icons will appear. Click the + button. Now, the file should be listed under “Staged Changes”.</li>
-<li>Click “Commit”. A file will open inside VSCode with a gray line 1. Write your commit message: “Initial Commit”.</li>
-<li>Click the checkmark at the top right toolbar. A dialog box will appear.</li>
-<li>Click Save. The dialog box and the commit file will disappear.</li>
-<li>There should now be nothing to see in the Source Control pane. Click the three dots in its menu toolbar.</li>
-<li>Click Push. This will send your code/files to the GitHub repository.</li>
+<li>Commit and push your changes to GitHub.</li>
 <li>Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.</li>
 <li>Check your actual website by going to username.github.io. It should say (in very basic styling):
 <h1>
@@ -220,7 +214,9 @@ Hello World
 I’m hosted with GitHub Pages.
 </p></li>
 <li>Now that our site is hosted correctly, we can actually build our site to look how we want it!</li>
-</ol>
+</ul></li></ol>
+<p><br></p>
+<p>If you need more instructions about committing and pushing to GitHub, check out our <a href="https://iqss.github.io/git_guide/">Git and GitHub Guide</a>.</p>
 
 
 
