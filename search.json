@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "GitHub Pages Starter Guide",
     "section": "",
-    "text": "Preface\nThe following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website.\nWe include directions for editing your website with three options: * The online file editor through GitHub * GitHub Desktop * RStudio and Git",
+    "text": "Preface\nThe following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website.\nWe include directions for editing your website with three options: 1. The online file editor through GitHub 2. GitHub Desktop 3. RStudio and Git",
     "crumbs": [
       "Preface"
     ]
