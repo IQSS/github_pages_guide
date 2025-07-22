@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "GitHub Pages Starter Guide",
     "section": "",
-    "text": "Preface",
+    "text": "Introduction",
     "crumbs": [
-      "Preface"
+      "Introduction"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "section": "The site is currently under maintenance. Please return shortly.",
     "text": "The site is currently under maintenance. Please return shortly.\nThe following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website.\nWe include directions for editing your website with three options:\n\nThe online file editor through GitHub\nGitHub Desktop\nRStudio and Git\n\nFeel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the third option may be best for you. If you don’t know what those are, feel free to use either of the first two options.\nAdditionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.",
     "crumbs": [
-      "Preface"
+      "Introduction"
     ]
   },
   {
