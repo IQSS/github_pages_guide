@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; Adding a Custom Domain – GitHub Pages Starter Guide</title>
+<title>6&nbsp; Getting Started – GitHub Pages Starter Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./GHD_start.html" rel="next">
-<link href="./OGHE_customize.html" rel="prev">
+<link href="./GHD_create.html" rel="next">
+<link href="./domain.html" rel="prev">
 <link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./OGHE_start.html">Online GitHub Editor</a></li><li class="breadcrumb-item"><a href="./domain.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Adding a Custom Domain</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./GHD_start.html">GitHub Desktop</a></li><li class="breadcrumb-item"><a href="./GHD_start.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Getting Started</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./domain.html" class="sidebar-item-text sidebar-link active">
+  <a href="./domain.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Adding a Custom Domain</span></span></a>
   </div>
 </li>
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./GHD_start.html" class="sidebar-item-text sidebar-link">
+  <a href="./GHD_start.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Getting Started</span></span></a>
   </div>
 </li>
@@ -248,9 +248,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./OGHE_start.html">Online GitHub Editor</a></li><li class="breadcrumb-item"><a href="./domain.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Adding a Custom Domain</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./GHD_start.html">GitHub Desktop</a></li><li class="breadcrumb-item"><a href="./GHD_start.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Getting Started</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Adding a Custom Domain</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Getting Started</span></h1>
 </div>
 
 
@@ -267,100 +267,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Customizing your domain name can be a complicated process. The full GitHub instructions can be found <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">here</a>.</p>
-<p>These instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.</p>
-<ol type="1">
-<li>
-Go to your GitHub repository
-</li>
-<li>
-Click Settings
-</li>
-<li>
-In the left-hand menu bar, select Pages
-</li>
-<li>
-Scroll down to the Custom Domain section
-</li>
-<li>
-Enter your custom domain in the textbox. For example, you should write: mysite.com
-</li>
-<li>
-Hit Save
-</li>
-<li>
-Navigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.
-<ol type="a">
-<li>
-Example: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.
-</li>
-<li>
-Instructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation .
-</li>
-<li>
-For example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”
-</li>
-</ol>
-</li><li>
-To ensure that your apex domain (i.e.&nbsp;without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:
-</li>
-<ul>
-<li>
-185.199.108.153
-</li>
-<li>
-185.199.109.153
-</li>
-<li>
-185.199.110.153
-</li>
-<li>
-185.199.111.153
-</li>
-</ul>
-<li>
-Confirm that your DNS record is configured correctly using the terminal.
-<ol type="a">
-<li>
-In the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.
-</li>
-<li>
-You should see the GitHub pages link in the output.
-</li>
-<li>
-This can take some time to propogate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.
-</li>
-</ol>
-</li><li>
-Go back to your GitHub repository.
-</li>
-<li>
-Go to Settings &gt; Pages &gt; Custom domain
-</li>
-<li>
-Check off Enforce HTTPS
-</li>
-<ul>
-<li>
-If this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider
-</li>
-<li>
-We strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.
-</li>
-<li>
-For example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)
-</li>
-</ul>
-<li>
-If you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.
-</li>
-<li>
-Some common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.
-</li>
-<li>
-On the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!
-</li>
-</ol>
+<p>If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!</p>
 
 
 
@@ -766,13 +673,13 @@ On the other hand, if you get an error message “DNS check unsuccessful” or �
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./OGHE_customize.html" class="pagination-link" aria-label="Customizing Your Website">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Customizing Your Website</span></span>
+      <a href="./domain.html" class="pagination-link" aria-label="Adding a Custom Domain">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Adding a Custom Domain</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./GHD_start.html" class="pagination-link" aria-label="Getting Started">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Getting Started</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./GHD_create.html" class="pagination-link" aria-label="Creating Your Website">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Creating Your Website</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
