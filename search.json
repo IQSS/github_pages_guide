@@ -10,6 +10,17 @@
     ]
   },
   {
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "1  Installing Necessary Software",
+    "section": "",
+    "text": "If you are opting to work with RStudio and Git, you will need to ensure that you have the following installations on your computer:\n\nGit\nR\nRStudio",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Installing Necessary Software</span>"
+    ]
+  },
+  {
     "objectID": "create.html",
     "href": "create.html",
     "title": "2  Creating Your Website",
