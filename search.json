@@ -22,7 +22,7 @@
   {
     "objectID": "OGHE_start.html",
     "href": "OGHE_start.html",
-    "title": "1  Getting Started",
+    "title": "Getting Started",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -33,7 +33,7 @@
   {
     "objectID": "OGHE_create.html",
     "href": "OGHE_create.html",
-    "title": "2  Creating Your Website",
+    "title": "Creating Your Website",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -44,7 +44,7 @@
   {
     "objectID": "OGHE_template.html",
     "href": "OGHE_template.html",
-    "title": "3  Using Templates",
+    "title": "Using Templates",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -55,7 +55,7 @@
   {
     "objectID": "OGHE_customize.html",
     "href": "OGHE_customize.html",
-    "title": "4  Customizing Your Website",
+    "title": "Customizing Your Website",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -66,7 +66,7 @@
   {
     "objectID": "domain.html",
     "href": "domain.html",
-    "title": "5  Adding a Custom Domain",
+    "title": "Adding a Custom Domain",
     "section": "",
     "text": "Customizing your domain name can be a complicated process. The full GitHub instructions can be found here.\nThese instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.\n\n\nGo to your GitHub repository\n\n\nClick Settings\n\n\nIn the left-hand menu bar, select Pages\n\n\nScroll down to the Custom Domain section\n\n\nEnter your custom domain in the textbox. For example, you should write: mysite.com\n\n\nHit Save\n\n\nNavigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.\n\n\nExample: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.\n\n\nInstructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation .\n\n\nFor example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”\n\n\n\nTo ensure that your apex domain (i.e. without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:\n\n\n\n185.199.108.153\n\n\n185.199.109.153\n\n\n185.199.110.153\n\n\n185.199.111.153\n\n\n\nConfirm that your DNS record is configured correctly using the terminal.\n\n\nIn the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.\n\n\nYou should see the GitHub pages link in the output.\n\n\nThis can take some time to propogate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.\n\n\n\nGo back to your GitHub repository.\n\n\nGo to Settings &gt; Pages &gt; Custom domain\n\n\nCheck off Enforce HTTPS\n\n\n\nIf this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider\n\n\nWe strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.\n\n\nFor example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)\n\n\n\nIf you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.\n\n\nSome common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.\n\n\nOn the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!",
     "crumbs": [
@@ -77,7 +77,7 @@
   {
     "objectID": "GHD_start.html",
     "href": "GHD_start.html",
-    "title": "6  Getting Started",
+    "title": "Getting Started",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -88,7 +88,7 @@
   {
     "objectID": "GHD_create.html",
     "href": "GHD_create.html",
-    "title": "7  Creating Your Website",
+    "title": "Creating Your Website",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -99,7 +99,7 @@
   {
     "objectID": "GHD_template.html",
     "href": "GHD_template.html",
-    "title": "8  Using Templates",
+    "title": "Using Templates",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -110,7 +110,7 @@
   {
     "objectID": "GHD_customize.html",
     "href": "GHD_customize.html",
-    "title": "9  Customize Your Website",
+    "title": "Customize Your Website",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -121,7 +121,7 @@
   {
     "objectID": "RSG_start.html",
     "href": "RSG_start.html",
-    "title": "11  Getting Started",
+    "title": "Getting Started",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -132,7 +132,7 @@
   {
     "objectID": "RSG_create.html",
     "href": "RSG_create.html",
-    "title": "12  Create Your Website",
+    "title": "Create Your Website",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -143,7 +143,7 @@
   {
     "objectID": "RSG_template.html",
     "href": "RSG_template.html",
-    "title": "13  Using Templates",
+    "title": "Using Templates",
     "section": "",
     "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
     "crumbs": [
@@ -154,7 +154,7 @@
   {
     "objectID": "RSG_customize.html",
     "href": "RSG_customize.html",
-    "title": "14  Customize Your Website",
+    "title": "Customize Your Website",
     "section": "",
     "text": "Customizing",
     "crumbs": [
