@@ -123,7 +123,51 @@
     "href": "RSG_start.html",
     "title": "Getting Started",
     "section": "",
-    "text": "If you’re ready for a more technical approach, and you are already familiar with projects in RStudio and Git, then this option may be right for you.\nIf you don’t already, you will need various programs downloaded and installed on your computer:\n\nR\nRStudio\nGit\n\n\n\nTo download R (for Macs):\n\n\nGo to r-project.org.\nSelect the location closest to you.\nAt the top of this site (called a “mirror”), there should be a “Download and Install R” section.\nSelect the link that says “Download R for macOS”.\nClick on the link for the latest release that is compatible with your computer. (For the Macs, this might depend on the chip you have).\n\n\nIf you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click “About This Mac” to see your “Chip” and “macOS”.\n\n\n\n\n\n\nTo download R (for PCs):\n\n\nGo to r-project.org.\nSelect the location closest to you.\nAt the top of this site (called a “mirror”), there should be a “Download and Install R” section.\nSelect the link that says “Download R for Windows”.",
+    "text": "Downloading R\nIf you’re ready for a more technical approach, and you are already familiar with projects in RStudio and Git, then this option may be right for you.\nIf you don’t already, you will need various programs downloaded and installed on your computer:\nYou will also need a GitHub account.",
+    "crumbs": [
+      "RStudio and Git",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "RSG_start.html#downloading-r",
+    "href": "RSG_start.html#downloading-r",
+    "title": "Getting Started",
+    "section": "",
+    "text": "To download R (for Macs):\n\n\nGo to r-project.org.\nSelect the location closest to you.\nAt the top of this site (called a “mirror”), there should be a “Download and Install R” section.\nSelect the link that says “Download R for macOS”.\nClick on the link for the latest release that is compatible with your computer. (For the Macs, this might depend on the chip you have).\n\n\nIf you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click “About This Mac” to see your “Chip” and “macOS”.\n\n\n\n\n\n\nTo download R (for PCs):\n\n\nGo to r-project.org.\nSelect the location closest to you.\nAt the top of this site (called a “mirror”), there should be a “Download and Install R” section.\nSelect the link that says “Download R for Windows”.",
+    "crumbs": [
+      "RStudio and Git",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "RSG_start.html#downloading-rstudio",
+    "href": "RSG_start.html#downloading-rstudio",
+    "title": "Getting Started",
+    "section": "Downloading RStudio",
+    "text": "Downloading RStudio",
+    "crumbs": [
+      "RStudio and Git",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "RSG_start.html#downloading-git",
+    "href": "RSG_start.html#downloading-git",
+    "title": "Getting Started",
+    "section": "Downloading Git",
+    "text": "Downloading Git",
+    "crumbs": [
+      "RStudio and Git",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "RSG_start.html#making-a-github-account",
+    "href": "RSG_start.html#making-a-github-account",
+    "title": "Getting Started",
+    "section": "Making a GitHub Account",
+    "text": "Making a GitHub Account",
     "crumbs": [
       "RStudio and Git",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Getting Started</span>"
