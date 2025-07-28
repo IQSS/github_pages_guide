@@ -79,7 +79,7 @@
     "href": "GS_customize.html#resume-page",
     "title": "Customize Your Website",
     "section": "Resume Page",
-    "text": "Resume Page\n\nNavigate to the Resume Page by clicking on “Resume” in the top header.\nGoogle Slides allows the option to include resume sections as plain text on the site, or as a Google Doc/PDF, or both. Choose whichever you’d like.\nYou can simply click the plain text sections if you’d like to include those. If not, hover over each and select the trash icon in the left-side pop-up menu to delete them.\nIf you have your resume as a Google Doc:\n\n\nIn the right-side menu bar under the “Insert” tab, select “Docs”.\n\n\nIn the pop-up menu, select your Google Docs resume.\n\n\nClick the blue “Insert” button.\n\n\nNote that this will insert the Google Doc in a new section under your current section.\n\n\nIf you have your resume as a PDF:\n\n\nYou need to upload your PDF file to your Google Drive.\n\n\nIn the right-side menu bar under the “Insert” tab, select “Drive”.\n\n\nIn the pop-up menu, navigate to and select your PDF resume.\n\n\nClick the blue “Insert” button.\n\n\nNot that this will insert the PDF in a new section under your current section.\n\n\n\nTO-DO: instructions about permission on the files.",
+    "text": "Resume Page\n\nNavigate to the Resume Page by clicking on “Resume” in the top header.\nGoogle Slides allows the option to include resume sections as plain text on the site, or as a Google Doc/PDF, or both. Choose whichever you’d like.\nYou can simply click the plain text sections if you’d like to include those. If not, hover over each and select the trash icon in the left-side pop-up menu to delete them.\n\n\n\nIf you have your resume as a Google Doc:\n\n\n\nIn the right-side menu bar under the “Insert” tab, select “Docs”.\n\n\nIn the pop-up menu, select your Google Docs resume.\n\n\nClick the blue “Insert” button.\n\n\nNote that this will insert the Google Doc in a new section under your current section.\n\n\n\n\n\nIf you have your resume as a PDF:\n\n\n\nYou need to upload your PDF file to your Google Drive.\n\n\nIn the right-side menu bar under the “Insert” tab, select “Drive”.\n\n\nIn the pop-up menu, navigate to and select your PDF resume.\n\n\nClick the blue “Insert” button.\n\n\nNot that this will insert the PDF in a new section under your current section.\n\n\n\nIf you get any messages about permissions for files, don’t worry now. We will make those available when we publish the site.",
     "crumbs": [
       "Google Sites",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Customize Your Website</span>"
@@ -90,7 +90,7 @@
     "href": "GS_customize.html#research-projects-page",
     "title": "Customize Your Website",
     "section": "Research & Projects Page",
-    "text": "Research & Projects Page",
+    "text": "Research & Projects Page\nYou can edit the text boxes here as you normally would to add content about projects that you’d like to highlight.\nYou can also add or remove sections as you see fit, also as described earlier.",
     "crumbs": [
       "Google Sites",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Customize Your Website</span>"
