@@ -35,7 +35,18 @@
     "href": "GS_create.html",
     "title": "Creating Your Website",
     "section": "",
-    "text": "Creating your website with Google Sites is as easy as clicking a button. Simply go to Google Sites (you may be prompted to log in, if you are not already).\nUnder “Start a new site” there is a list of templates. Feel free to browse the templates before you select which one you’d like to use. We suggest either:\n\n“Graduates” or\n“Professors”\n\nOnce you select the template you’d like to use, Google Sites will redirect to a customizable version of the template for you to edit.",
+    "text": "Creating your website with Google Sites is as easy as clicking a button. Simply go to Google Sites (you may be prompted to log in, if you are not already).\nUnder “Start a new site” there is a list of templates. Feel free to browse the templates before you select which one you’d like to use.1 We suggest either:\nOnce you select the template you’d like to use, Google Sites will redirect to a customizable version of the template for you to edit.",
+    "crumbs": [
+      "Google Sites",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Creating Your Website</span>"
+    ]
+  },
+  {
+    "objectID": "GS_create.html#footnotes",
+    "href": "GS_create.html#footnotes",
+    "title": "Creating Your Website",
+    "section": "",
+    "text": "If you would rather create your site from scratch, you can use the “Blank” option, though that will require more effort on your end to create your content.↩︎",
     "crumbs": [
       "Google Sites",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Creating Your Website</span>"
