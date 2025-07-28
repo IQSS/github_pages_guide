@@ -57,15 +57,15 @@
     "href": "GS_customize.html",
     "title": "Customize Your Website",
     "section": "",
-    "text": "About\nYou are now ready to customize the template with your information. Google Sites is driven by its user interface. There is no coding that you need to do. Instead, there are pop-ups, and various tool menus that allow you to edit your site, insert or remove content, create or delete pages, and edit the theme.\nUsing the “Graduates” template as an example, you can start with three pages: (1) About, (2) Resume, and (3) Research & Projects.\nYou can change these page names by navigating on the right-most menu bar to the “Pages” tab, and then double-clicking on the page name to change it. You can also use the “+” button at the bottom of the menu bar to add pages. You can use the three-dot menu next to each page name to delete or duplicate a page.\nFor example, you may wish to change “About” to “Home”.",
+    "text": "About Page\nYou are now ready to customize the template with your information. Google Sites is driven by its user interface. There is no coding that you need to do. Instead, there are pop-ups, and various tool menus that allow you to edit your site, insert or remove content, create or delete pages, and edit the theme.\nUsing the “Graduates” template as an example, you can start with three pages: (1) About, (2) Resume, and (3) Research & Projects.\nYou can change these page names by navigating on the right-most menu bar to the “Pages” tab, and then double-clicking on the page name to change it. You can also use the “+” button at the bottom of the menu bar to add pages. You can use the three-dot menu next to each page name to delete or duplicate a page.\nFor example, you may wish to change “About” to “Home”.",
     "crumbs": [
       "Google Sites",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Customize Your Website</span>"
     ]
   },
   {
-    "objectID": "GS_customize.html#about",
-    "href": "GS_customize.html#about",
+    "objectID": "GS_customize.html#about-page",
+    "href": "GS_customize.html#about-page",
     "title": "Customize Your Website",
     "section": "",
     "text": "Add your name to the header by simply clicking on the “Tina Smith, PhD” and putting your name there instead.\nIntroduce yourself by editing the first text box.\n\n\nHover over the text box, and click on the pencil icon to edit.\n\n\nYou can change the text type (e.g., title), font, size, styles, and formatting in the tool menu that pops up above the text box.\n\n\nYou can add an image of yourself.\n\n\nClick on the existing image.\n\n\nIn the tool bar that pops up, select the three dots.\n\n\nHover over “Replace image” and then click “Upload”.\n\n\nFrom your computer, select the image you would like to add.\n\n\nYou can choose to move, add, or delete sections on your homepage if you wish.\n\n\nTo move a section, you can hover over the content, move your cursor to the left-most part of the content (where there are 10 dots in 2 columns), and drag the section to your desired location.\n\n\nTo add a section, make sure the menu bar on the right side is on the “Insert” tab, and select your desired content block.\n\n\nTo delete a section, hover over it, and in the left-most pop-up menu, click the trash icon.",
@@ -75,22 +75,22 @@
     ]
   },
   {
-    "objectID": "GS_customize.html#resume",
-    "href": "GS_customize.html#resume",
+    "objectID": "GS_customize.html#resume-page",
+    "href": "GS_customize.html#resume-page",
     "title": "Customize Your Website",
-    "section": "Resume",
-    "text": "Resume",
+    "section": "Resume Page",
+    "text": "Resume Page\n\nNavigate to the Resume Page by clicking on “Resume” in the top header.\nGoogle Slides allows the option to include resume sections as plain text on the site, or as a Google Doc/PDF, or both. Choose whichever you’d like.\nYou can simply click the plain text sections if you’d like to include those. If not, hover over each and select the trash icon in the left-side pop-up menu to delete them.\nIf you have your resume as a Google Doc:\n\n\nIn the right-side menu bar under the “Insert” tab, select “Docs”.\n\n\nIn the pop-up menu, select your Google Docs resume.\n\n\nClick the blue “Insert” button.\n\n\nNote that this will insert the Google Doc in a new section under your current section.\n\n\nIf you have your resume as a PDF:\n\n\nYou need to upload your PDF file to your Google Drive.\n\n\nIn the right-side menu bar under the “Insert” tab, select “Drive”.\n\n\nIn the pop-up menu, navigate to and select your PDF resume.\n\n\nClick the blue “Insert” button.\n\n\nNot that this will insert the PDF in a new section under your current section.\n\n\n\nTO-DO: instructions about permission on the files.",
     "crumbs": [
       "Google Sites",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Customize Your Website</span>"
     ]
   },
   {
-    "objectID": "GS_customize.html#research-projects",
-    "href": "GS_customize.html#research-projects",
+    "objectID": "GS_customize.html#research-projects-page",
+    "href": "GS_customize.html#research-projects-page",
     "title": "Customize Your Website",
-    "section": "Research & Projects",
-    "text": "Research & Projects",
+    "section": "Research & Projects Page",
+    "text": "Research & Projects Page",
     "crumbs": [
       "Google Sites",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Customize Your Website</span>"
