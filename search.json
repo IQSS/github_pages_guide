@@ -134,7 +134,18 @@
     "href": "OGHE_create.html",
     "title": "Creating Your Website",
     "section": "",
-    "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
+    "text": "To start, we will create a repository (you can think of this as a folder for your project).",
+    "crumbs": [
+      "Online GitHub Editor",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Creating Your Website</span>"
+    ]
+  },
+  {
+    "objectID": "OGHE_create.html#footnotes",
+    "href": "OGHE_create.html#footnotes",
+    "title": "Creating Your Website",
+    "section": "",
+    "text": "In fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.↩︎",
     "crumbs": [
       "Online GitHub Editor",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Creating Your Website</span>"
