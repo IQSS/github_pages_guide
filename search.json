@@ -123,7 +123,7 @@
     "href": "OGHE_start.html",
     "title": "Getting Started",
     "section": "",
-    "text": "If you’d like a bit more flexibility than Google Sites, and you are comfortable with some level of HTML, but you’d like to reduce the technical knowledge required, then using the online GitHub editor is the right choice for you!\nTo get started, you will need to make sure that you have a GitHub account. If you do not already have one, visit GitHub.com and create an account. If you already have an account, you can log in and enter your credentials.\nYou may be prompted to sign in with 2-Factor Authentication with an email or your phone number.",
+    "text": "If you’d like a bit more flexibility than Google Sites, and you are comfortable with some level of HTML, but you’d like to reduce the technical knowledge required, then using the online GitHub editor is the right choice for you!\nEverything will be done through your internet browser, using GitHub’s file editing tool—no downloads or installs needed.\nTo get started, you will need to make sure that you have a GitHub account. If you do not already have one, visit GitHub.com and create an account. If you already have an account, you can log in and enter your credentials.\nYou may be prompted to sign in with 2-Factor Authentication with an email or your phone number.",
     "crumbs": [
       "Online GitHub Editor",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Getting Started</span>"
