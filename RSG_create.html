@@ -284,7 +284,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!</p>
+<p><br></p>
+<p>To create a personal website with GitHub, you must already have a GitHub account. If you do not, <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">please make one</a>.</p>
+<p>These instructions largely follow the instructions from GitHub, found <a href="https://pages.github.com/">here</a>.</p>
+<ol type="1">
+<li>In GitHub, create a new repository called username.github.io where username is replaced by your actual username. For example, if my username is pandabear, my repository is called pandabear.github.io</li>
+<li>On your desktop, create a folder. I called mine “Personal_Website”</li>
+<li>Clone your GitHub repository to your local folder. You can do this with your IDE of choice or through the command line.
+<ul>
+<li>
+To copy the full repository link from your GitHub repository, use the green clone button, and then the copy icon. Paste this where your IDE asks for it.
+</li>
+<li>
+Or if you are using your command line, you can change directory (using the cd command) into your “Personal_Website” folder and then type out “git clone &lt;paste your link here&gt;”.
+</li>
+</ul></li>
+<li>Now, create a new file inside of your repository called “index.html”</li>
+<li>Inside the file, copy and paste this text: <br> &lt;!DOCTYPE html&gt; <br> &lt;html&gt; <br> &lt;body&gt; <br> &lt;h1&gt;Hello World&lt;/h1&gt; <br> &lt;p&gt;I’m hosted with GitHub Pages.&lt;/p&gt; <br> &lt;/body&gt; <br> &lt;/html&gt; <br></li>
+<li>Save your file.</li>
+<li>Commit and push your changes to GitHub.</li>
+<li>Check in your GitHub repository to make sure that the commit is pushed. You should see index.html with the commit message that you gave it.</li>
+<li>Check your actual website by going to username.github.io. It should say (in very basic styling):
+<h1>
+Hello World
+</h1>
+<p>
+I’m hosted with GitHub Pages.
+</p></li>
+<li>Now that our site is hosted correctly, we can actually build our site to look how we want it!</li>
+</ol>
+<p><br></p>
+<p>If you need more instructions about committing and pushing to GitHub, check out our <a href="https://iqss.github.io/git_guide/">Git and GitHub Guide</a>.</p>
 
 
 
