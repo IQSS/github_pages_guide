@@ -268,6 +268,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#downloading-rstudio" id="toc-downloading-rstudio" class="nav-link" data-scroll-target="#downloading-rstudio">Downloading RStudio</a></li>
   <li><a href="#downloading-git" id="toc-downloading-git" class="nav-link" data-scroll-target="#downloading-git">Downloading Git</a></li>
   <li><a href="#making-a-github-account" id="toc-making-a-github-account" class="nav-link" data-scroll-target="#making-a-github-account">Making a GitHub Account</a></li>
+  <li><a href="#connecting-your-git-to-your-rstudio" id="toc-connecting-your-git-to-your-rstudio" class="nav-link" data-scroll-target="#connecting-your-git-to-your-rstudio">Connecting Your Git to Your RStudio</a></li>
   </ul>
 </nav>
     </div>
@@ -319,6 +320,9 @@ To download R (for Macs):
 If you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click “About This Mac” to see your “Chip” and “macOS”.
 </li>
 </ol></li>
+<li>This will download a .pkg file. Navigate to your downloads folder and double click the file.</li>
+<li>This opens up an installer. Follow the directions. (Mostly clicking “Continue”). When it is finished, click the “Close” button. You may also move the installer to the Trash, if prompted.</li>
+<li>We have now finished installing R.</li>
 </ol>
 </details>
 <details>
@@ -330,21 +334,74 @@ To download R (for PCs):
 <li>Select the location closest to you.</li>
 <li>At the top of this site (called a “mirror”), there should be a “Download and Install R” section.</li>
 <li>Select the link that says “Download R for Windows”.</li>
-<li></li>
+<li>On the next page, click the blue link for “base”.</li>
+<li>On the next page, click the big, blue link for “Download R-[version] for Windows”.</li>
+<li>Once the installer is downloaded, open it and follow the instructions.</li>
 </ol>
 </details>
 <hr>
 </section>
 <section id="downloading-rstudio" class="level2">
 <h2 class="anchored" data-anchor-id="downloading-rstudio">Downloading RStudio</h2>
+<details>
+<summary>
+To download RStudio:
+</summary>
+<ol type="1">
+<li>You should make sure that you installed R (if you skipped the previous step, you won’t be able to properly use RStudio).</li>
+<li>Go to the RStudio <a href="https://posit.co/download/rstudio-desktop/">download page</a>.</li>
+<li>Scroll to the section that says “2: Install RStudio”. Click the big, blue button that says “Download RStudio for [your computer system]”. (The website detects what you have!)
+<ol type="a">
+<li>
+If, for some reason, this is not the correct one, scroll down further to the section titled “All Installers and Tarballs” for your operating system. Click the link for your own.
+</li>
+<li>
+If you have an older operating system, please see this <a href="https://forum.posit.co/t/rstudio-desktop-releases-on-unsupported-versions-of-macos/176074">post</a> for a list of previous versions potentially available to download.
+</li>
+</ol></li>
+<li>Once the download is complete, open the file and follow the instructions in the pop-up.</li>
+<li>After RStudio is installed, open the app and make sure it works.</li>
+</ol>
+</details>
 <hr>
 </section>
 <section id="downloading-git" class="level2">
 <h2 class="anchored" data-anchor-id="downloading-git">Downloading Git</h2>
+<p>To download Git:</p>
+<ol type="1">
+<li>Go to the <a href="https://git-scm.com/downloads">Git website</a> and click on your operating system to download.
+<ol type="a">
+<li>
+If you have an older version, follow the blue link “Older releases”.
+</li>
+</ol></li>
+<li>Once downloaded, open the file and follow the installation instructions.</li>
+<li>If you’d like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run “git –version” to see what version is downloaded.</li>
+</ol>
 <hr>
 </section>
 <section id="making-a-github-account" class="level2">
 <h2 class="anchored" data-anchor-id="making-a-github-account">Making a GitHub Account</h2>
+<p>To create a personal website with GitHub, you must already have a GitHub account. If you do not, <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">please make one</a>.</p>
+<hr>
+</section>
+<section id="connecting-your-git-to-your-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-your-git-to-your-rstudio">Connecting Your Git to Your RStudio</h2>
+<p>RStudio should be able to automatically detect your Git installation. To test, open your RStudio app, and from the menu, select Tools &gt; Terminal &gt; Move Focus to Terminal. Then type “git –version” in the bottom pane (titled “Terminal”) and make sure you can see the same version as before.</p>
+<details>
+<summary>
+If this does not work, you need to tell RStudio where Git is.
+</summary>
+<ol type="1">
+<li>You need to find the path to your git. To do so, you can use the RStudio Terminal and type “which git”. Copy this path. (On a Mac this is usually “/usr/bin/git” and on a PC this is usually “C:Files.exe”).</li>
+<li>In the top menu bar go to Tools &gt; Global Options. In the pop-up, from the left menu bar, select “Git/SVN”.</li>
+<li>Under “Git executable”, RStudio usually automatically finds Git. However, if yours was not working, you need to paste the path to your git.</li>
+<li>Click OK.</li>
+</ol>
+</details>
+<p>Lastly, you need to go to the Terminal tab in RStudio again. Once there, type: <code>git config --global user.name "Your Name"</code> and then <code>git config --global user.email "youremail@example.com"</code>. <strong>The email must be the email that you used to set up your GitHub account.</strong></p>
+<p>Now, restart your RStudio.</p>
+<p>We will later connect our GitHub account to our RStudio once we have a repository for our site/project set up.</p>
 
 
 </section>
