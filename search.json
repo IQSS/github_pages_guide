@@ -156,7 +156,18 @@
     "href": "OGHE_template.html",
     "title": "Using Templates",
     "section": "",
-    "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
+    "text": "Now we are ready to use a template to quickly get the website set up.\nFind a website template that you’d like to use. There are a lot of free ones from https://html5up.net/. Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use Jekyll themes that are designed for GitHub Pages, too.\nSome of the templates that we recommend for multiple-page websites include:\nIf you’d like a 1-page website, some templates include:\nRegardless of your desired choice, the set-up remains the same.",
+    "crumbs": [
+      "Online GitHub Editor",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Using Templates</span>"
+    ]
+  },
+  {
+    "objectID": "OGHE_template.html#footnotes",
+    "href": "OGHE_template.html#footnotes",
+    "title": "Using Templates",
+    "section": "",
+    "text": "Annoyingly, when choosing your files, GitHub does not allow you to select sub-folders. The best option is to drag-and-drop using the method above. If not, you will have to manually create subfolders inside of your GitHub repo and the add the items from the subfolders to each.↩︎",
     "crumbs": [
       "Online GitHub Editor",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Using Templates</span>"
