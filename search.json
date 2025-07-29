@@ -277,7 +277,7 @@
     "href": "RSG_start.html#downloading-git",
     "title": "Getting Started",
     "section": "Downloading Git",
-    "text": "Downloading Git\nTo download Git:\n\nGo to the Git website and click on your operating system to download.\n\n\nIf you have an older version, follow the blue link “Older releases”.\n\n\nOnce downloaded, open the file and follow the installation instructions.\nIf you’d like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run “git –version” to see what version is downloaded.",
+    "text": "Downloading Git\n\n\nTo download Git:\n\n\nGo to the Git website and click on your operating system to download.\n\n\nIf you have an older version, follow the blue link “Older releases”.\n\n\nOnce downloaded, open the file and follow the installation instructions.\nIf you’d like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run “git –version” to see what version is downloaded.",
     "crumbs": [
       "RStudio and Git",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Getting Started</span>"
