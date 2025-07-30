@@ -200,7 +200,40 @@
     "href": "GHD_start.html",
     "title": "Getting Started",
     "section": "",
-    "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
+    "text": "Making a GitHub Account\nCreating your website with GitHub Desktop is very similar to creating your website with RStudio. Both are called IDEs (integrated development environments), and you can think of them as apps you can use to edit and push code to GitHub. The good thing about GitHub Desktop is that it is built by GitHub, so the connection between GitHub online and the desktop application are seamless.\nTo begin, you will need to make sure that you have:\nTo create a personal website with GitHub, you must already have a GitHub account. If you do not, please make one.",
+    "crumbs": [
+      "GitHub Desktop",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "GHD_start.html#downloading-github-desktop",
+    "href": "GHD_start.html#downloading-github-desktop",
+    "title": "Getting Started",
+    "section": "Downloading GitHub Desktop",
+    "text": "Downloading GitHub Desktop\nTo download the application:\n\nGo the GitHub Desktop website.\nSelect the “Download now” button.\nIt should re-direct you to a download page for your operating system. Click the “Download for [your operating system]” button.1\nIn your Downloads folder, open the .zip file. It should un-zip to an application called “GitHub Desktop”.\nWe recommend moving this to your “Applications” folder.2",
+    "crumbs": [
+      "GitHub Desktop",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "GHD_start.html#connecting-your-github-desktop-to-your-github-account",
+    "href": "GHD_start.html#connecting-your-github-desktop-to-your-github-account",
+    "title": "Getting Started",
+    "section": "Connecting Your GitHub Desktop to Your GitHub Account",
+    "text": "Connecting Your GitHub Desktop to Your GitHub Account\nTo connect your account and app:\n\nOpen the GitHub Desktop app.\nClick the blue “Sign in to GitHub.com”\nThis will open a tab in your browser. Sign in as instructed.\nOnce done in the browser, your GitHub desktop will now show a screen called “Configure Git”. Leave the first option to “Use my GitHub account name and email address”.\nMake sure that your Name and Email fields are correct. You can change the email to any email associated with your GitHub account, if you have multiple.\nClick “Finish”.\n\nWait to “get started” until the next step!",
+    "crumbs": [
+      "GitHub Desktop",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "GHD_start.html#footnotes",
+    "href": "GHD_start.html#footnotes",
+    "title": "Getting Started",
+    "section": "",
+    "text": "There are additional buttons on this page if you need to switch operating systems, e.g., “Download for Windows” or “Download for Mac with Intel chip”.↩︎\nYou can either copy this app, open your Applications folder, and paste it; or, you can simply drag and drop it from your Downloads folder to your Application folder.↩︎",
     "crumbs": [
       "GitHub Desktop",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
