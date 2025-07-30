@@ -244,7 +244,18 @@
     "href": "GHD_create.html",
     "title": "Creating Your Website",
     "section": "",
-    "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
+    "text": "If you just downloaded GitHub Desktop for the first time, your application should still be on the “Let’s Get Started” page. We are going to leave that alone for now.\nIn your browser, navigate to your GitHub account. We are going to create a repository for your website project.\nThese instructions largely follow the instructions from GitHub, found here.\nTo start, we will create a repository (you can think of this as a folder for your project).\nNow, we can return to the GitHub Desktop application.",
+    "crumbs": [
+      "GitHub Desktop",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Creating Your Website</span>"
+    ]
+  },
+  {
+    "objectID": "GHD_create.html#footnotes",
+    "href": "GHD_create.html#footnotes",
+    "title": "Creating Your Website",
+    "section": "",
+    "text": "I have a folder called Projects.↩︎",
     "crumbs": [
       "GitHub Desktop",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Creating Your Website</span>"
