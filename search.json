@@ -14,7 +14,7 @@
     "href": "index.html#the-site-is-currently-under-maintenance.-please-return-shortly.",
     "title": "Professional Website Starter Guide",
     "section": "The site is currently under maintenance. Please return shortly.",
-    "text": "The site is currently under maintenance. Please return shortly.\nThe following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website. If you’d rather start with a website on Google Sites (no coding necessary!), we include those instructions first.\nWe include instructions for editing your website with four options. For the option you would like to choose, simply click on its link below for detailed instructions to get started.\n\nGoogle Sites\nThe online file editor through GitHub\nGitHub Desktop\nRStudio and Git\n\nFeel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the last option may be best for you. If you don’t know what those are, but you know how to code in HTML, feel free to use options 2 or 3. If you have no clue how to code (that’s OK!), then a Google Sites page might be right for you.\nAdditionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.\nNote: In Google Sites, support for custom domains is currently not available for managed accounts, like a g.harvard.edu account. If you really want to use a custom domain (i.e. yourname.com), then you should either use GitHub Pages or use a personal Google account to make your Google Site.",
+    "text": "The site is currently under maintenance. Please return shortly.\nThe following is a quick starter guide designed to get you acquainted with GitHub Pages, an option for you to create a personal website. If you’d rather start with a website on Google Sites (no coding necessary!), we include those instructions first.\nWe include instructions for editing your website with four options. For the option you would like to choose, simply click on its link below for detailed instructions to get started.\n\nGoogle Sites\nThe online file editor through GitHub\nRStudio and Git\n\nFeel free to choose the option that best fits your technical comfort level. If you are already used to R/RStudio/Git, the last option may be best for you. If you don’t know what those are, but you know how to code in HTML, feel free to use option 2. If you have no clue how to code (that’s OK!), then a Google Sites page might be right for you.\nAdditionally, we include instructions for finding and using templates, customizing your site, and connecting your site to a custom domain.\nNote: In Google Sites, support for custom domains is currently not available for managed accounts, like a g.harvard.edu account. If you really want to use a custom domain (i.e. yourname.com), then you should either use GitHub Pages or use a personal Google account to make your Google Site.",
     "crumbs": [
       "Introduction"
     ]
@@ -196,105 +196,6 @@
     ]
   },
   {
-    "objectID": "GHD_start.html",
-    "href": "GHD_start.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "Making a GitHub Account\nCreating your website with GitHub Desktop is very similar to creating your website with RStudio. Both are called IDEs (integrated development environments), and you can think of them as apps you can use to edit and push code to GitHub. The good thing about GitHub Desktop is that it is built by GitHub, so the connection between GitHub online and the desktop application are seamless.\nTo begin, you will need to make sure that you have:\nTo create a personal website with GitHub, you must already have a GitHub account. If you do not, please make one.",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_start.html#downloading-github-desktop",
-    "href": "GHD_start.html#downloading-github-desktop",
-    "title": "Getting Started",
-    "section": "Downloading GitHub Desktop",
-    "text": "Downloading GitHub Desktop\nTo download the application:\n\nGo the GitHub Desktop website.\nSelect the “Download now” button.\nIt should re-direct you to a download page for your operating system. Click the “Download for [your operating system]” button.1\nIn your Downloads folder, open the .zip file. It should un-zip to an application called “GitHub Desktop”.\nWe recommend moving this to your “Applications” folder.2",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_start.html#connecting-your-github-desktop-to-your-github-account",
-    "href": "GHD_start.html#connecting-your-github-desktop-to-your-github-account",
-    "title": "Getting Started",
-    "section": "Connecting Your GitHub Desktop to Your GitHub Account",
-    "text": "Connecting Your GitHub Desktop to Your GitHub Account\nTo connect your account and app:\n\nOpen the GitHub Desktop app.\nClick the blue “Sign in to GitHub.com”\nThis will open a tab in your browser. Sign in as instructed.\nOnce done in the browser, your GitHub desktop will now show a screen called “Configure Git”. Leave the first option to “Use my GitHub account name and email address”.\nMake sure that your Name and Email fields are correct. You can change the email to any email associated with your GitHub account, if you have multiple.\nClick “Finish”.\n\nWait to “get started” until the next step!",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_start.html#footnotes",
-    "href": "GHD_start.html#footnotes",
-    "title": "Getting Started",
-    "section": "",
-    "text": "There are additional buttons on this page if you need to switch operating systems, e.g., “Download for Windows” or “Download for Mac with Intel chip”.↩︎\nYou can either copy this app, open your Applications folder, and paste it; or, you can simply drag and drop it from your Downloads folder to your Application folder.↩︎",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_create.html",
-    "href": "GHD_create.html",
-    "title": "Creating Your Website",
-    "section": "",
-    "text": "If you just downloaded GitHub Desktop for the first time, your application should still be on the “Let’s Get Started” page. We are going to leave that alone for now.\nIn your browser, navigate to your GitHub account. We are going to create a repository for your website project.\nThese instructions largely follow the instructions from GitHub, found here.\nTo start, we will create a repository (you can think of this as a folder for your project).\nNow, we can return to the GitHub Desktop application.",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Creating Your Website</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_create.html#footnotes",
-    "href": "GHD_create.html#footnotes",
-    "title": "Creating Your Website",
-    "section": "",
-    "text": "I have a folder called Projects.↩︎",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Creating Your Website</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_template.html",
-    "href": "GHD_template.html",
-    "title": "Using Templates",
-    "section": "",
-    "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Using Templates</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_customize.html",
-    "href": "GHD_customize.html",
-    "title": "Customize Your Website",
-    "section": "",
-    "text": "If you’re less familiar with RStudio and Git, and you’d like to stay online, then using the online GitHub editor is the right choice for you!",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Customize Your Website</span>"
-    ]
-  },
-  {
-    "objectID": "GHD_domain.html",
-    "href": "GHD_domain.html",
-    "title": "Adding a Custom Domain",
-    "section": "",
-    "text": "Customizing your domain name can be a complicated process. The full GitHub instructions can be found here.\nThese instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.\n\n\nGo to your GitHub repository\n\n\nClick Settings\n\n\nIn the left-hand menu bar, select Pages\n\n\nScroll down to the Custom Domain section\n\n\nEnter your custom domain in the textbox. For example, you should write: mysite.com\n\n\nHit Save\n\n\nNavigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.\n\n\nExample: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.\n\n\nInstructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation .\n\n\nFor example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”\n\n\n\nTo ensure that your apex domain (i.e. without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:\n\n\n\n185.199.108.153\n\n\n185.199.109.153\n\n\n185.199.110.153\n\n\n185.199.111.153\n\n\n\nConfirm that your DNS record is configured correctly using the terminal.\n\n\nIn the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.\n\n\nYou should see the GitHub pages link in the output.\n\n\nThis can take some time to propogate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.\n\n\n\nGo back to your GitHub repository.\n\n\nGo to Settings &gt; Pages &gt; Custom domain\n\n\nCheck off Enforce HTTPS\n\n\n\nIf this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider\n\n\nWe strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.\n\n\nFor example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)\n\n\n\nIf you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.\n\n\nSome common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.\n\n\nOn the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!",
-    "crumbs": [
-      "GitHub Desktop",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Adding a Custom Domain</span>"
-    ]
-  },
-  {
     "objectID": "RSG_start.html",
     "href": "RSG_start.html",
     "title": "Getting Started",
@@ -302,7 +203,7 @@
     "text": "Downloading R\nIf you’re ready for a more technical approach, and you are already familiar with projects in RStudio and Git, then this option may be right for you.\nIf you don’t already, you will need various programs downloaded and installed on your computer:\nYou will also need a GitHub account.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Getting Started</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
     ]
   },
   {
@@ -313,7 +214,7 @@
     "text": "To download R (for Macs):\n\n\nGo to r-project.org.\nSelect the location closest to you.\nAt the top of this site (called a “mirror”), there should be a “Download and Install R” section.\nSelect the link that says “Download R for macOS”.\nClick on the link for the latest release that is compatible with your computer. (For the Macs, this might depend on the chip you have).\n\n\nIf you are unsure what macOS and chip you have, you can click on the Apple logo in the menu bar (top left of your screen). Then, click “About This Mac” to see your “Chip” and “macOS”.\n\n\nThis will download a .pkg file. Navigate to your downloads folder and double click the file.\nThis opens up an installer. Follow the directions. (Mostly clicking “Continue”). When it is finished, click the “Close” button. You may also move the installer to the Trash, if prompted.\nWe have now finished installing R.\n\n\n\n\nTo download R (for PCs):\n\n\nGo to r-project.org.\nSelect the location closest to you.\nAt the top of this site (called a “mirror”), there should be a “Download and Install R” section.\nSelect the link that says “Download R for Windows”.\nOn the next page, click the blue link for “base”.\nOn the next page, click the big, blue link for “Download R-[version] for Windows”.\nOnce the installer is downloaded, open it and follow the instructions.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Getting Started</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
     ]
   },
   {
@@ -324,7 +225,7 @@
     "text": "Downloading RStudio\n\n\nTo download RStudio:\n\n\nYou should make sure that you installed R (if you skipped the previous step, you won’t be able to properly use RStudio).\nGo to the RStudio download page.\nScroll to the section that says “2: Install RStudio”. Click the big, blue button that says “Download RStudio for [your computer system]”. (The website detects what you have!)\n\n\nIf, for some reason, this is not the correct one, scroll down further to the section titled “All Installers and Tarballs” for your operating system. Click the link for your own.\n\n\nIf you have an older operating system, please see this post for a list of previous versions potentially available to download.\n\n\nOnce the download is complete, open the file and follow the instructions in the pop-up.\nAfter RStudio is installed, open the app and make sure it works.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Getting Started</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
     ]
   },
   {
@@ -335,7 +236,7 @@
     "text": "Downloading Git\n\n\nTo download Git:\n\n\nGo to the Git website and click on your operating system to download.\n\n\nIf you have an older version, follow the blue link “Older releases”.\n\n\nOnce downloaded, open the file and follow the installation instructions.\nIf you’d like to check that git installed correctly (and you know what the Terminal is for Mac, or the Command Prompt for PCs), you can run “git –version” to see what version is downloaded.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Getting Started</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
     ]
   },
   {
@@ -346,7 +247,7 @@
     "text": "Making a GitHub Account\nTo create a personal website with GitHub, you must already have a GitHub account. If you do not, please make one.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Getting Started</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
     ]
   },
   {
@@ -357,7 +258,7 @@
     "text": "Connecting Your Git to Your RStudio\nRStudio should be able to automatically detect your Git installation. To test, open your RStudio app, and from the menu, select Tools &gt; Terminal &gt; Move Focus to Terminal. Then type “git –version” in the bottom pane (titled “Terminal”) and make sure you can see the same version as before.\n\n\nIf this does not work, you need to tell RStudio where Git is.\n\n\nYou need to find the path to your git. To do so, you can use the RStudio Terminal and type “which git”. Copy this path. (On a Mac this is usually “/usr/bin/git” and on a PC this is usually “C:Files.exe”).\nIn the top menu bar go to Tools &gt; Global Options. In the pop-up, from the left menu bar, select “Git/SVN”.\nUnder “Git executable”, RStudio usually automatically finds Git. However, if yours was not working, you need to paste the path to your git.\nClick OK.\n\n\nLastly, you need to go to the Terminal tab in RStudio again. Once there, type: git config --global user.name \"Your Name\" and then git config --global user.email \"youremail@example.com\". The email must be the email that you used to set up your GitHub account.\nNow, restart your RStudio.\nWe will later connect our GitHub account to our RStudio once we have a repository for our site/project set up.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Getting Started</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Getting Started</span>"
     ]
   },
   {
@@ -368,7 +269,7 @@
     "text": "We can now start building the website.\nThese instructions largely follow the instructions from GitHub, found here.\nTo start, we will create a repository (you can think of this as a folder for your project).\nIf you need more instructions about committing and pushing to GitHub, or if you want to use the Terminal/Command Line, check out our Git and GitHub Guide.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Create Your Website</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Create Your Website</span>"
     ]
   },
   {
@@ -379,7 +280,7 @@
     "text": "In fact, if we are creating a GitHub Page that has a different name than our username, e.g., a project webpage, we will need to do this manually, anyhow.↩︎",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Create Your Website</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Create Your Website</span>"
     ]
   },
   {
@@ -390,7 +291,7 @@
     "text": "Now, find a website template that you’d like to use. There are a lot of free ones from https://html5up.net/. Or, if you are already savvy with HTML or web design, you may choose to make your own website from scratch. You can also use Jekyll themes that are designed for GitHub Pages, too.\nSome of the templates that we recommend for multiple-page websites include:\n\nHTML5Up’s Editorial\nHTML5Up’s Stellar\nHTML5Up’s Arcana\nHTML5Up’s Minimaxing\n\nIf you’d like a 1-page website, some templates include:\n\nHTML5Up’s Read Only\nHTML5Up’s Strata\n\nRegardless of your desired choice, the set-up remains the same.\n\nDownload the template that you like.\nGo into your downloads folder.\nCopy and paste all of this content into your repository folder (username.github.io). You know this is the right folder because there will be an index.html file inside of it!\nIf the downloaded items include an index.html, you will need to delete your original, barebones index.html we created earlier. (If you are on a Mac, it will ask you automatically).\nThrough RStudio (or the command line, if you know how), commit your changes and push them to GitHub.\nAfter a few minutes, the build should be deployed and you should see this template hosted on your website now.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Using Templates</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Using Templates</span>"
     ]
   },
   {
@@ -401,7 +302,7 @@
     "text": "To personalize your website, you will need to change all of the text and images that are currently in your template.\nIf your site has one page, you will likely only need to edit your index.html file. If your site has more pages, there will be additional .html files for you to edit. To change your styling, there should be a main.css file inside of the assets/css/ folder. Here you can change stylings, like color, text size, and fonts.\nOpen any of the .html files in RStudio to edit them. You can open files by looking in the file pane (usually the bottom right), and clicking the file. It will then open in the file editing pane (usually the big pane in the top left). You can replace the text via editing. To replace images, you will need to create an images folder inside of your username.github.io repository, where you can download images to. You will then have to use image tags &lt;img src=“images/specific_path_to_photo.png”&gt; in your .html files.\nAdditionally, you may want to create more .html files, especially if you’d like an individual page for each of your publications, etc. You may want to delete some of the .html files that you don’t use from the template, too. Just make sure that your index.html or other .html files you do use do not link to the files you delete, or your page will get 404 errors if someone clicks on those links.\nMake sure to save, commit, and push all of your changes to GitHub. We recommend doing this repeatedly, so that you can see your edits taking effect as you edit your site. This may take a few minutes after pushing. When you are in your GitHub repository, you should see a green checkmark next to your commit message to tell you that your build has successfully deployed.",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Customize Your Website</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Customize Your Website</span>"
     ]
   },
   {
@@ -412,7 +313,7 @@
     "text": "Customizing your domain name can be a complicated process. The full GitHub instructions can be found here.\nThese instructions assume that you already have ownership of the custom domain that you would like to use, as well as knowledge about your specific DNS provider.\n\n\nGo to your GitHub repository\n\n\nClick Settings\n\n\nIn the left-hand menu bar, select Pages\n\n\nScroll down to the Custom Domain section\n\n\nEnter your custom domain in the textbox. For example, you should write: mysite.com\n\n\nHit Save\n\n\nNavigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site.\n\n\nExample: if you want to use www.example.com, you will create a CNAME record that points www.example.com to &lt;username&gt;.github.io. Note that this is the user page, not a repository name.\n\n\nInstructions for creating a CNAME record vary by DNS provider. GitHub recommends using your DNS provider’s documentation .\n\n\nFor example, on GoDaddy, when you add a record, the record name would be “www” and the record value would be “username.github.io”\n\n\n\nTo ensure that your apex domain (i.e. without “www”) works, you should also include four A records in your DNS provider’s web console. For example, on GoDaddy, the name would be the @ symbol and the values would be the following:\n\n\n\n185.199.108.153\n\n\n185.199.109.153\n\n\n185.199.110.153\n\n\n185.199.111.153\n\n\n\nConfirm that your DNS record is configured correctly using the terminal.\n\n\nIn the terminal, type: dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd where WWW.EXAMPLE.COM should be replaced with your custom domain name.\n\n\nYou should see the GitHub pages link in the output.\n\n\nThis can take some time to propogate. For example, on GoDaddy, you can set your “TTL” (time to live) as low as 600 seconds. However, GoDaddy also warns that changes may not take effect for up to 48 hours. We also suggest checking your site (and all variations of your site link, e.g., with and without “www”) on an incognito window, as your browser’s cache can sometimes make it appear as if your site did not update.\n\n\n\nGo back to your GitHub repository.\n\n\nGo to Settings &gt; Pages &gt; Custom domain\n\n\nCheck off Enforce HTTPS\n\n\n\nIf this says something along the lines of “Your domain is not properly configured to support HTTPS” we will need to add additional records with your DNS provider\n\n\nWe strongly recommend following instructions from your DNS provider. You should look up “HTTPS record for [your DNS provider]” in Google and follow any of their documentation.\n\n\nFor example, on GoDaddy, you can add an HTTPS record where the name is @ and the value is your site’s domain (e.g., mysite.com)\n\n\n\nIf you run into any additional problems, you may want to ensure that there are no additional A records aside from the ones listed above. This may be a problem if you have previously had your site hosted through a service separate from GitHub pages.\n\n\nSome common warning messages that you may see when GitHub pages is connecting to your site include “DNS valid for primary” or “DNS check in progress” – these are both OK, and should go away once your site is connected.\n\n\nOn the other hand, if you get an error message “DNS check unsuccessful” or “Both your custom domain and its alternative name are improperly configured,” then it means either your A or CNAME records are incorrect. Please check these!",
     "crumbs": [
       "RStudio and Git",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Adding a Custom Domain</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Adding a Custom Domain</span>"
     ]
   }
 ]
